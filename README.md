@@ -14,10 +14,12 @@ $ yo jhw-vuejs
 ### Command
 ```
 # watch
-npm run dev
+npm start
+
 # build
 npm run build
 ```
+
 ## License
 
 MIT

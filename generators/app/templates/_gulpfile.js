@@ -1,11 +1,7 @@
 var gulp = require('gulp');
 var webpack = require('webpack');
-var path = require('path');
 var notify = require('gulp-notify');
-var concat = require('gulp-concat'); //合并文件
 var rm = require('rimraf');
-var browserify = require('browserify');
-var source = require('vinyl-source-stream');
 var imagemin = require('gulp-imagemin');
 
 //http://www.browsersync.cn/docs/recipes/
@@ -13,7 +9,7 @@ var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 var src = './src/';
 var dest = './dist/';
-var homepage = "index.html";
+var homepage = 'index.html';
 var config = {
   src: src,
   dest: dest,
@@ -21,10 +17,10 @@ var config = {
     server: './dist',
     index: homepage,
     port: 3000,
-    logLevel: "debug",
-    logPrefix: "JHW",
+    logLevel: 'debug',
+    logPrefix: 'JHW',
     open: true,
-    files: [dest + "/*.js", "./index.html"]
+    files: [dest + '/*.js', './index.html']
   },
   scss: {
     src: src + '**/*.scss'
@@ -74,7 +70,7 @@ function handleErrors() {
     message: '<%= error.message %>'
   }).apply(this, args);
   this.emit('end');
-};
+}
 
 gulp.task('web-server', ['build'],function() {
   browserSync.init(config.webServer);
