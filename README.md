@@ -6,7 +6,7 @@ More infomation please refer to [vue-loader](https://github.com/vuejs/vue-loader
 
 ### Install && Usage
 ```
-$ npm install -g generator-jhw-vuejs
+$ npm install -g generator-es6-vue
 $ mkdir myproject && cd myproject
 $ yo jhw-vuejs
 ```
