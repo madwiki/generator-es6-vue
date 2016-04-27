@@ -1,14 +1,12 @@
 {
-  "name": "generator-jhw-vuejs",
-  "version": "0.2.2",
-  "description": "A simple Vue + Webpack + gulp yeoman generator for juhuiwan.cn",
+  "name": "generator-es6-vue",
+  "version": "0.1.0",
+  "description": "A simple vue.js + gulp + webpack generator based on es6 ",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "birdeggegg/generator-vuejs",
+  "repository": "https://github.com/madwiki/generator-es6-vue",
   "author": {
-    "name": "zerob13",
-    "email": "zerob13@gmail.com",
-    "url": "https://github.com/zerob13"
+    "name": "madwiki"
   },
   "scripts": {
     "test": "mocha"
