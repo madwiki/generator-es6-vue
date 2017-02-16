@@ -8,7 +8,7 @@ More infomation please refer to [vue-loader](https://github.com/vuejs/vue-loader
 ```
 $ npm install -g generator-es6-vue
 $ mkdir myproject && cd myproject
-$ yo jhw-vuejs
+$ yo es6-vue
 ```
 
 ### Command
